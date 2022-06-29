@@ -1,0 +1,135 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    margin-left: 365px;
+    padding: 0px;
+}
+
+.form-group {
+    background-color: #f4f4f4;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.form-group label {
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+
+.form-group input[type="text"] {
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 110px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 110px;
+    margin: 10px;
+    margin-top: 27px;
+    padding: 0px;
+    position: absolute;
+    left: 757px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+
+.block {
+    width: 36.5%;
+    height: 140px;
+    border: 0px solid whitesmoke;
+    box-sizing: border-box;
+    background-color: #00FFFF;
+    color: blue;
+    margin: 1px;
+    float: left;
+    flex-grow: 2;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+}
+
+.block1 {
+    width: 26%;
+    height: 140px;
+    border: 0px solid whitesmoke;
+    box-sizing: border-box;
+    background-color: #00ced1;
+    color: blue;
+    margin: 1px;
+    float: left;
+    text-align: center;
+}
+
+.block2 {
+    width: 36.5%;
+    height: 140px;
+    border: 0px solid whitesmoke;
+    box-sizing: border-box;
+    background-color: #20b2aa;
+    color: blue;
+    margin: 1px;
+    float: left;
+    text-align: center;
+}
+
+.block,
+.block1,
+.block2 h4 {
+    text-decoration: underline;
+}
+
+.block h3 {
+    color: black;
+}
+
+.block2 h3,
+label {
+    color: black;
+    text-decoration: none;
+
+}
+
+.block2 h5 {
+    display: inline;
+}
+
+#main-footer {
+    display:block;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+}
